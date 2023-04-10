@@ -24,6 +24,7 @@ author1:
   # Rearrange to change the order in which they appear
   social:
     # twitter:         <username>
+    linkedin:        shirin-tahmasebi-14200079
     github:          ShirinTahmasebi
     email:           shirint@kth.se
     scholar:         oLOrDeMAAAAJ
@@ -55,7 +56,6 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
