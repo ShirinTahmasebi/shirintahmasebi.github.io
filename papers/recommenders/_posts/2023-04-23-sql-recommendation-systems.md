@@ -42,6 +42,11 @@ dl > dt:before {
     z-index: 400;
 }
 
+dl > dt:after {
+    content: " :";
+    color: #000000; 
+}
+
 dl >dt, dl > dd {
     margin: 6pt 0; /* was 20px */
     padding-left: 60px;
