@@ -19,13 +19,13 @@ This paper proposed an RL-based approach for optimizing the discrete prompts. In
 
 Generally, RLPrompt is a Multi-Layer Perceptron (MLP)--represented by $$\pi$$--which is same as the <i>policy</i> concept in RL. Let us say that $$\theta$$ is the weights and parameter-set for $$\pi$$. Then, we can use the notation of $$\pi_{\theta}$$ to denote the MLP and its parameters. So, for each downstream task, $$\pi_{\theta}$$ is first trained to find the optimal set of prompts. From then, the optimal prompts can be used for that specific downstream task. But the question is that how such MLP should be trained in order to find the optimal prompts per task?
 
-Let us say that we are going to train $$\pi_{\theta}$$ for task T (e.g., a classification task), then the training procedure is as follows:
+Let us say that we are going to train $$\pi_{\theta}$$ for task $$D$$ (e.g., a classification task), then the training procedure is as follows:
 
 1. First, we need to get the embedding of input $$x$$. So, we can use an embedding model for encoding the input sentence. This embedding model can be any language model, such as BERT, DistillBERT, RoBERTa, etc.
 
 1. Input $$x$$ is passed to $$\pi_{\theta}$$ and the prompt set $$z$$ is returned. To be more specific, $$\pi_{\theta}$$ returns a token for each round. So, for generating a prompt with $$T$$ tokens, it should be called for $$T$$ times. If we want to have a prompt of size $$T$$, then we need to get the tokens corresponding to the top $$T$$ highest probabilities. ($$z = [z_1, ..., z_T]$$)
 
-1. The concatenation of prompt $$z$$ and the input $$x$$ are passed to the langugage model which is used for downstream task $$T$$. This language model is represetend by $$LM$$, and its output is denoted by $$y_{LM}(z, x)$$. The performance of the LM for task $D$ is represented as $$R$$. $$R$$ is a function which takes the output of the langugae model as input and returns the score (how well is the output)--$$score = R(y_{LM}(z, x))$$. Moreover, the authors mention that for having a stable MLP the score value should be normalized!
+1. The concatenation of prompt $$z$$ and the input $$x$$ are passed to the langugage model which is used for downstream task $$D$$. This language model is represetend by $$LM$$, and its output is denoted by $$y_{LM}(z, x)$$. The performance of the LM for task $$D$$ is represented as $$R$$. $$R$$ is a function which takes the output of the langugae model as input and returns the score (how well is the output)--$$score = R(y_{LM}(z, x))$$. For example, for the classification task, $$R$$ is the how frequent the model can predict the gold label. Moreover, the authors mention that for having a stable MLP the score value should be normalized!
 
 1. According to the $$score$$ value computed in the previous step, $$\pi_{\theta}$$ is trained and $$\theta$$ is updated.
 
