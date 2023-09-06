@@ -3,9 +3,6 @@ title: Publications
 ---
 
 
-S Tahmasebi, AH Payberah, A Soylu, D Roman, M Matskin
-
-
 *   **ReSQue: REcommending SQL QUEries Using Transformers** Paper [Code][Resque2023Code] \\
     _Shirin Tahmasebi_, Amir H. Payberah, Ahmet Soylu, Dumitru Roman, Mihhail Matskin \\
     ACM RecSys Workshop on Context-Aware Recommender Systems (CARS), 2023
