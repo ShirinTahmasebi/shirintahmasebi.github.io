@@ -3,6 +3,14 @@ title: Publications
 ---
 
 
+S Tahmasebi, AH Payberah, A Soylu, D Roman, M Matskin
+
+
+*   **ReSQue: REcommending SQL QUEries Using Transformers** Paper [Code][Resque2023Code] \\
+    _Shirin Tahmasebi_, Amir H. Payberah, Ahmet Soylu, Dumitru Roman, Mihhail Matskin \\
+    ACM RecSys Workshop on Context-Aware Recommender Systems (CARS), 2023
+
+---
 
 *   **TranSQL: A Transformer-based Model for Classifying SQL Queries** [Paper][TranSql2022Pdf] [Code][TranSql2022Code] \\
     _Shirin Tahmasebi_, Amir H. Payberah, Ahmet Soylu, Dumitru Roman, Mihhail Matskin \\
@@ -56,3 +64,6 @@ title: Publications
 
 [TranSql2022Pdf]: https://payberah.github.io/files/download/papers/transql.pdf
 [TranSql2022Code]: https://github.com/ShirinTahmasebi/Query-Embedding
+
+
+[Resque2023Code]: https://github.com/ShirinTahmasebi/RESQUE_BERT
