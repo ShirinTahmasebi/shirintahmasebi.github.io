@@ -27,7 +27,7 @@ To further enhance fairness, an adversarial training component is introduced. An
 In summary, the paper presents a novel framework, PFRec, which allows for selective fairness customization in recommendation systems. It achieves this through a two-phase approach, where pre-tuning focuses on sequence prediction and fine-tuning introduces adapters and adversarial training to address bias-aware fairness concerns.
 
 
-Now, in what follows, the used datasets and the experiments are explained. The experiments in the paper are conducted using two public datasets: CIKM and AliEC. The CIKM dataset is an E-commerce recommendation dataset. It has 88,000 items and 60,000 users with 2.1 million click instances. Each user has 3 attributes: gender, age, consumption level. The AliEC dataset contains nearly 100,000 users and 8.8 million click instances. Each user has two attributes gender and age. 
+Now, in what follows, the used datasets and the experiments are explained. The experiments in the paper are conducted using two public datasets: **CIKM** and **AliEC**. The CIKM dataset is an E-commerce recommendation dataset. It has 88,000 items and 60,000 users with 2.1 million click instances. Each user has 3 attributes: gender, age, consumption level. The AliEC dataset contains nearly 100,000 users and 8.8 million click instances. Each user has two attributes gender and age. 
 
 
 Two benchmars are designed for evaluation:
@@ -35,6 +35,9 @@ Two benchmars are designed for evaluation:
 
 * **Multi-Attribute Fairness:** In addition to single-attribute fairness, the paper also examines multi-attribute fairness settings. This means that the fairness-aware modeling can take into account multiple user-sensitive attributes simultaneously to provide fairness in recommendations.
 
+The paper compares the performance of PFRec with several baselines, including:
+* **SASRec:** This is the same pre-training model used for learning user representations, without any fairness considerations. It serves as a baseline for evaluating PFRec's fairness-aware capabilities.
+* **BERT4Rec:** BERT4Rec is mentioned as another strong BERT-based sequential recommendation model. While the paper doesn't provide specific details, it implies that BERT4Rec is one of the models used for comparison with PFRec.
 
 Performance measurement metrics can be divided into two categories:
 
