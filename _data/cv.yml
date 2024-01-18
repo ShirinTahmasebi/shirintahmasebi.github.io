@@ -1,97 +1,103 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Albert Einstein
+#     - name: Date of Birth
+#       value: 14th March 1879
+#     - name: Languages
+#       value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Information and Communication Technology
+      institution: KTH Royal Institute of Technology
+      year: Jun. 2021 - Present
+      location: Stockholm, Sweden
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+         - <b>Thesis Title:</b> Natural Language Processing and Recommendation Systems
+         - Supervised by <a href="https://people.kth.se/~misha/">Professor Mihhail Matskin</a> and <a href="https://payberah.github.io/">Dr. Amir h. Payberah</a>
+
+    - title: M.Sc. in Computer Science and Engineering, Software Engineering
+      institution: Sharif University of Technology
+      year: Sep. 2017 - Jan. 2020
+      location: Tehran, Iran
+      description:
+         - <b>Thesis Title:</b> A Scalable Architecture Based on Fog Computing and Blockchain for IoT Device Management
+         - Supervised by <a href="http://sharif.ir/~jhabibi/">Dr. Jafar Habibi</a>
+         - <b>Summary:</b> We have designed a scalable blockchain-based architecture for monitoring IoT devices using fog computing. To demonstrate the feasibility and usability of our proposed solution, we have implemented a proof-of-concept prototype, leveraging Ethereum smart contracts.
+
+    - title: B.Sc. in Computer Science and Engineering
+      institution: Shahid Beheshti University of Technology
+      year: Sep. 2012 - Jan. 2017
+      location: Tehran, Iran
+      description:
+         - <b>Thesis Title:</b> Design and Implementation of an Android Application for Integrating Reporting and Complaints Systems Procedure across Governmental Organizations
+         - Supervised by <a href="http://facultymembers.sbu.ac.ir/aliakbary/">Dr. Sadegh Aliakbari</a>
+         - <b>Summary:</b> Since most governmental organizations and local councils have their specific reporting and complaints systems, this project aimed to address the concern that citizens may not know which authority is responsible for a specific type of problem in a particular location. In this regard, we have designed and implemented an Android application to integrate reporting and complaints systems across organizations. Leveraging this framework can make it more straightforward to inform the local authority of the problems needing their attention and also lead to a significant improvement in Citizen Relationship Management (CzRM).
+
+- title: Industrial Experience
+  type: time_table
+  contents:
+    - title: Researcher and Java Developer
+      institution: Intelligent Information Solutions Center
+      year: Feb. 2018 - Apr. 2021
+      location: Tehran, Iran
+      description: During my collaboration with this company, I participated in the <b>Moein</b> project <span>:</span> An Application Performance Monitoring (APM) software that enables organizations to monitor the performance metrics of their business-critical applications. <br /> Moreover, due to the huge amount of collected data in the Moein monitoring platform, we conducted some research to leverage efficient time series data analysis techniques for predicting future values of each Key Performance Indicator (KPI), as well as detecting anomalies in KPI values. <a href="https://www.behpaya.com/en">[Link]</a>
+    - title: Android Developer
+      institution: Rahyab Telecom Co.
+      year: Jul. 2017 - Jan. 2018
+      location: Tehran, Iran
+      description: 
+        - <b>ArooshaOSS</b><span>:</span> A system designed for service quality and network performance management.
+        - title: <b>Razmeh</b><span>:</span> A public logistic solution composed of several modules<span>:</span> 
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Taxi<span>:</span> A location-based service application to automate requesting and finding a taxi. <a href="http://www.taxi.ir">[Link]</a>
+            - PinPeik<span>:</span> A location-based service application to automate requesting and finding a courier. <a href="http://pinpeik.com/">[Link]</a>
+            - PinBaar<span>:</span> A location-based service application to automate requesting and finding a cargo truck. <a href="http://www.pinbaar.ir/">[Link]</a>
+
+
+    - title: Android Developer
+      institution: Amid Rayaneh Sharif (Arsh) Co.
+      year: Jul. 2015 - Aug. 2016
+      location: Tehran, Iran
       description:
-        - Description 1.
-        - Description 2.
+        - <b>Baadoom Social Networking Application</b><span>:</span> It is a social networking application designed for parents not only to share their children’s best memories but also to receive reliable psychological tips about raising their children. <a href="https://www.arsh.co/fa/products">[Link]</a>
+        - <b>Dorsa and Dorsaban Android Applications</b><span>:</span> The principal aim of this project is to design and implement a parental control platform to enable parents to control and guide their children while exploring and discovering the endless world behind the Internet. This platform is designed in two separate Android applications, one of which is used on the parents' device, and the other is installed on the device of the child. <a href="https://www.dorsafamily.ir/en/">[Link]</a>
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items:
+#         - Nobel Prize in Physics
+#         - Matteucci Medal
+#     - year: 2029
+#       items:
+#         - Max Planck Medal
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

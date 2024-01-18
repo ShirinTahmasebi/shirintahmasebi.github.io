@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: Projec
+permalink: /project/
 description:
-nav: true
+nav: false
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
