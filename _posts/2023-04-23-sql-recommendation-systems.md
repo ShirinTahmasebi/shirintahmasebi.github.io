@@ -52,7 +52,7 @@ dl >dt, dl > dd {
 }
 
 .paperTitle {
-    color: #aaa8a8;
+    color: #C14242;
     font-weight: bold;
     font-size: 20px;
 }
@@ -100,7 +100,6 @@ However, this approach has several critical limitations, including its reliance 
 </dd>
 
 
-<dt>2012</dt>
 
 <dt>2013</dt>
 
@@ -113,9 +112,7 @@ However, this approach has several critical limitations, including its reliance 
 The limitation of this work is that it does not consider the sequence of queries in each user session for recommendations
 </dd>
 
-<dt>2014</dt>
 
-<dt>2015</dt>
 
 <dt>2016</dt>
 
@@ -128,9 +125,7 @@ The limitation of this work is that it does not consider the sequence of queries
 The limitations of this work are: first, generating data maps requires resubmitting queries, which can be computationally expensive for large databases. Second, users need to have a high level of involvement in the process. Third, it does not consider user sessions and sequence of queries for recommendation.
 </dd>
 
-<dt>2017</dt>
 
-<dt>2018</dt>
 
 <dt>2019</dt>
 
@@ -143,7 +138,6 @@ The limitations of this work are: first, generating data maps requires resubmitt
 The limitations of this work can be summarized as follows: the approach presented is only applicable when the database schema and data are static and do not change. Furthermore, the recommendation system does not consider user sessions or the sequence of queries in each session for recommendations.
 </dd>
 
-<dt>2020</dt>
 
 <dt>2021</dt>
 
@@ -166,7 +160,6 @@ In this inspiring paper, the authors provide a data-aware query recommendation s
 <dd> The limitation of this work is that it does not consider the sequence of queries in each user session for recommendations.
 </dd>
 
-<dt>2022</dt>
 
 <dt>2023</dt>
 
