@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Found in the Middle
-thumbnail: /assets/img/weekly-review/nlp_cover_week_17.jpg
+# thumbnail: /assets/img/weekly-review/nlp_cover_week_17.jpg
 categories: []
 tags:
   - bias

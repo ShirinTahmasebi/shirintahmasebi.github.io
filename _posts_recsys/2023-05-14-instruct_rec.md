@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Recommendation as Instruction Following (InstructRec)
-thumbnail: /assets/img/weekly-review/nlp_cover_week_19.jpg
+# thumbnail: /assets/img/weekly-review/nlp_cover_week_19.jpg
 categories: []
 tags:
   - recsys

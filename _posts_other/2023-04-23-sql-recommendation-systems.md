@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SQL Query Recommendation Systems
-thumbnail: /assets/img/weekly-review/sql_recommenders.jpg
+# thumbnail: /assets/img/weekly-review/sql_recommenders.jpg
 categories: [papers, recommenders]
 description: >
     An Extensive Overview of the Existing SQL Query Recommendation Systems

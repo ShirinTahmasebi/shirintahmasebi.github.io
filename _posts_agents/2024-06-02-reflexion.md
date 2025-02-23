@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reflexion
-thumbnail: /assets/img/weekly-review/nlp_cover_week_22.jpg
+# thumbnail: /assets/img/weekly-review/nlp_cover_week_22.jpg
 categories: []
 tags:
   - agents

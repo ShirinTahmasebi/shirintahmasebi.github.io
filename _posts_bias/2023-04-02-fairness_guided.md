@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fairness-guided Prompting
-thumbnail: /assets/img/weekly-review/nlp_cover_week_13.jpg
+# thumbnail: /assets/img/weekly-review/nlp_cover_week_13.jpg
 categories: [papers, weekly-review, nlp]
 description: >
     Fairness-guided Few-shot Prompting for LLMs
