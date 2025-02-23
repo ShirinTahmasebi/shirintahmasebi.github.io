@@ -1,11 +1,10 @@
 ---
 layout: page
-title: Projec
+title: Project
 permalink: /project/
 description:
 nav: false
-nav_order: 3
-display_categories: [work, fun]
+nav_order: -1
 horizontal: false
 ---
 

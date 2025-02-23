@@ -36,11 +36,13 @@ table {
 
 a,
 table.table a {
-  color: var(--global-theme-color);
+  color: var(--global-hover-color);
+  text-shadow: 0 0 0.01px var(--global-hover-color);
 
   &:hover {
-    color: var(--global-theme-color);
-    text-decoration: underline;
+    color: var(--global-hover-link);
+    text-decoration: none;
+    text-shadow: 0 0 0.1px var(--global-hover-link);
   }
 
   &:hover:after :not(.nav-item.dropdown) {

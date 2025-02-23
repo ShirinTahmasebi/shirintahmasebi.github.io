@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title"><i class="fa-solid fa-hashtag fa-sm"></i> {{ page.title }}</h1>
+    <p class="post-description">an archive of posts with "{{ page.tag }}"</p>
+  </header>
+
+  <article>
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">  
+        {% assign combined_list = site.posts_bias | concat: site.posts_compression | concat: site.posts_tokenization | concat: site.posts_recsys | concat: site.posts_agents | concat: site.posts_prompt | concat: site.post_llm_as_evaluator  | concat: site.posts_other %}
+        {% assign postlist = combined_list | sort: "date" | reverse %}
+        
+        {% for item in postlist %}
+          {% if item.tags contains page.tag %}
+            <tr>
+              <th scope="row">{{ item.date | date: '%b %d, %Y' }}</th>
+              <td>
+                <a class="post-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              </td>
+            </tr>
+          {% endif %}
+        {% endfor %}
+
+      </table>
+    </div>
+  </article>
+</div>
